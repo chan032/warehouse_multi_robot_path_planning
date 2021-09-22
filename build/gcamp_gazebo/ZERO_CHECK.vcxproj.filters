@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\gcamp_ros2_ws\build\gcamp_gazebo\CMakeFiles\45a06a9c80fb42205bb1954b84793d9c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D36000C8-B98B-392C-934F-1F1C1CF06A3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

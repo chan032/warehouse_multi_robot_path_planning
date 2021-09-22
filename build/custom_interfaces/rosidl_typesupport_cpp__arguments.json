@@ -1,0 +1,41 @@
+{
+  "package_name": "custom_interfaces",
+  "output_dir": "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_typesupport_cpp/custom_interfaces",
+  "template_dir": "C:/opt/ros/foxy/x64/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Num.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/AddThreeInts.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/TurningControl.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/Fibonacci.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/Maze.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:C:/opt/ros/foxy/x64/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "C:/opt/ros/foxy/x64/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "C:/opt/ros/foxy/x64/Lib/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Num.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/AddThreeInts.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/TurningControl.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/action/Fibonacci.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/action/Maze.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalInfo.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatus.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatusArray.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/srv/CancelGoal.idl",
+    "C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Duration.idl",
+    "C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Time.idl",
+    "C:/opt/ros/foxy/x64/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

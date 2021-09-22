@@ -1,0 +1,37 @@
+running develop
+running egg_info
+creating py_service_pkg.egg-info
+writing py_service_pkg.egg-info\PKG-INFO
+writing dependency_links to py_service_pkg.egg-info\dependency_links.txt
+writing entry points to py_service_pkg.egg-info\entry_points.txt
+writing requirements to py_service_pkg.egg-info\requires.txt
+writing top-level names to py_service_pkg.egg-info\top_level.txt
+writing manifest file 'py_service_pkg.egg-info\SOURCES.txt'
+reading manifest file 'py_service_pkg.egg-info\SOURCES.txt'
+writing manifest file 'py_service_pkg.egg-info\SOURCES.txt'
+running build_ext
+Creating C:\gcamp_ros2_ws\install\py_service_pkg/Lib/site-packages\py-service-pkg.egg-link (link to .)
+Installing basic_client-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing basic_client.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing basic_server-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing basic_server.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing custom_srv_client-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing custom_srv_client.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing custom_srv_server-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing custom_srv_server.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing gazebo_model_spawner-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing gazebo_model_spawner.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing robot_turning_client-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing robot_turning_client.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing robot_turning_server-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing robot_turning_server.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing spawn_skidbot-script.py script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+Installing spawn_skidbot.exe script to C:\gcamp_ros2_ws\install\py_service_pkg/lib/py_service_pkg
+
+Installed c:\gcamp_ros2_ws\build\py_service_pkg
+running install_data
+creating C:\gcamp_ros2_ws\install\py_service_pkg\share\ament_index
+creating C:\gcamp_ros2_ws\install\py_service_pkg\share\ament_index\resource_index
+creating C:\gcamp_ros2_ws\install\py_service_pkg\share\ament_index\resource_index\packages
+copying resource\py_service_pkg -> C:\gcamp_ros2_ws\install\py_service_pkg\share\ament_index\resource_index\packages
+copying package.xml -> C:\gcamp_ros2_ws\install\py_service_pkg\share\py_service_pkg

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\gcamp_ros2_ws\build\custom_interfaces\rosidl_generator_py\custom_interfaces\_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gcamp_ros2_ws\src\gcamp_ros2_basic\custom_interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{820C7B8F-0F95-370F-9878-515D80FB8B37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+^C:\GCAMP_ROS2_WS\BUILD\CUSTOM_INTERFACES\CMAKEFILES\8F7DEB1BCED224A2819171F4F900D676\NUM__ROSIDL_TYPESUPPORT_INTROSPECTION_C.H.RULE
+setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_typesupport_introspection_c__arguments.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GCAMP_ROS2_WS\SRC\GCAMP_ROS2_BASIC\CUSTOM_INTERFACES\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces -BC:/gcamp_ros2_ws/build/custom_interfaces --check-stamp-file C:/gcamp_ros2_ws/build/custom_interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

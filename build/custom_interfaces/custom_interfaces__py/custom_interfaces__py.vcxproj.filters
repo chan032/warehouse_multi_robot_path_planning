@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\gcamp_ros2_ws\build\custom_interfaces\CMakeFiles\35995f299c593c09d9ea4da7d867afae\_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\gcamp_ros2_ws\build\custom_interfaces\CMakeFiles\43874229bf7528d98e393dce4e32359b\custom_interfaces__py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\gcamp_ros2_ws\build\custom_interfaces\custom_interfaces__py\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\gcamp_ros2_ws\build\custom_interfaces\custom_interfaces__py\CMakeFiles\custom_interfaces__py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AFD4B9B-9C2E-364A-8211-49770C9B04D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

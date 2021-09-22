@@ -1,0 +1,14 @@
+Gazebo multi-robot simulator, version 10.2.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1632295254 251159500) [Msg] Waiting for master.
+(1632295254 314953900) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1632295254 320157900) [Msg] Publicized address: 172.30.1.34
+(1632295254 321360300) [Err] [C:\a\1\s\ws\src\gazebo\gazebo10\gazebo\gui\GuiIface.cc:526] Unable to save INI file["\Users\yoonh\.gazebo\gui.ini"]
+(1632295254 321476600) [Wrn] [C:\a\1\s\ws\src\gazebo\gazebo10\gazebo\gui\GuiIface.cc:297] Couldn't locate specified .ini. Creating file at "\Users\yoonh\.gazebo\gui.ini"
+(1632295254 321661900) [Err] [C:\a\1\s\ws\src\gazebo\gazebo10\gazebo\gui\GuiIface.cc:308] Unable to read configuration file "\Users\yoonh\.gazebo\gui.ini"
+(1632295254 321743700) Loaded .ini file from: "\Users\yoonh\.gazebo\gui.ini"
+(1632295428 486736200) [Err] [C:\a\1\s\ws\src\gazebo\gazebo10\gazebo\rendering\Scene.cc:2936] Light [user_point_light_0] already exists. Use topic ~/light/modify to modify it.

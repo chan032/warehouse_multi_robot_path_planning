@@ -1,0 +1,48 @@
+{
+  "package_name": "custom_interfaces",
+  "output_dir": "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces",
+  "template_dir": "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Num.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/AddThreeInts.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/TurningControl.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/Fibonacci.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/Maze.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:C:/opt/ros/foxy/x64/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:C:/opt/ros/foxy/x64/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "C:/opt/ros/foxy/x64/Lib/site-packages/rosidl_generator_py/__init__.py",
+    "C:/opt/ros/foxy/x64/Lib/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Num.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/AddThreeInts.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/TurningControl.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/action/Fibonacci.idl",
+    "C:/gcamp_ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/action/Maze.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalInfo.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatus.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/msg/GoalStatusArray.idl",
+    "C:/opt/ros/foxy/x64/share/action_msgs/srv/CancelGoal.idl",
+    "C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Duration.idl",
+    "C:/opt/ros/foxy/x64/share/builtin_interfaces/msg/Time.idl",
+    "C:/opt/ros/foxy/x64/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

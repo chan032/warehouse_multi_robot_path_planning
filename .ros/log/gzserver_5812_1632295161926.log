@@ -1,0 +1,16 @@
+[WARN] [1632295167.572539700] [rcl]: Found remap rule '~/out:=scan'. This syntax is deprecated. Use '--ros-args --remap ~/out:=scan' instead.
+[WARN] [1632295167.578279400] [rcl]: Found remap rule '~/out:=scan'. This syntax is deprecated. Use '--ros-args --remap ~/out:=scan' instead.
+[WARN] [1632295167.719536300] [rcl]: Found remap rule '/cmd_vel:=cmd_vel'. This syntax is deprecated. Use '--ros-args --remap /cmd_vel:=cmd_vel' instead.
+[WARN] [1632295167.719599000] [rcl]: Found remap rule '/odom:=odom'. This syntax is deprecated. Use '--ros-args --remap /odom:=odom' instead.
+[INFO] [1632295167.723535200] [skidbot.skid_steer_drive_controller]: Wheel pair 1 separation set to [0.400000m]
+[INFO] [1632295167.723611500] [skidbot.skid_steer_drive_controller]: Wheel pair 2 separation set to [0.400000m]
+[INFO] [1632295167.723628300] [skidbot.skid_steer_drive_controller]: Wheel pair 1 diameter set to [0.200000m]
+[INFO] [1632295167.723642000] [skidbot.skid_steer_drive_controller]: Wheel pair 2 diameter set to [0.200000m]
+[WARN] [1632295167.723694500] [rcl]: Found remap rule '/cmd_vel:=cmd_vel'. This syntax is deprecated. Use '--ros-args --remap /cmd_vel:=cmd_vel' instead.
+[WARN] [1632295167.723706500] [rcl]: Found remap rule '/odom:=odom'. This syntax is deprecated. Use '--ros-args --remap /odom:=odom' instead.
+[INFO] [1632295167.725074700] [skidbot.skid_steer_drive_controller]: Subscribed to [/skidbot/cmd_vel]
+[INFO] [1632295167.730294500] [skidbot.skid_steer_drive_controller]: Advertise odometry on [/skidbot/odom]
+[INFO] [1632295167.737837700] [skidbot.skid_steer_drive_controller]: Publishing odom transforms between [odom] and [robot_footprint]
+[INFO] [1632295167.737902600] [skidbot.skid_steer_drive_controller]: Publishing wheel transforms between [robot_footprint], [front_left_wheel_joint] and [front_right_wheel_joint]
+[INFO] [1632295167.737920200] [skidbot.skid_steer_drive_controller]: Publishing wheel transforms between [robot_footprint], [back_left_wheel_joint] and [back_right_wheel_joint]
+[INFO] [1632295215.204066700] [rclcpp]: signal_handler(signal_value=2)

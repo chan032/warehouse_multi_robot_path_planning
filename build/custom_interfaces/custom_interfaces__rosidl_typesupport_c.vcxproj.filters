@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\gcamp_ros2_ws\build\custom_interfaces\rosidl_typesupport_c\custom_interfaces\msg\num__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gcamp_ros2_ws\build\custom_interfaces\rosidl_typesupport_c\custom_interfaces\srv\add_three_ints__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gcamp_ros2_ws\build\custom_interfaces\rosidl_typesupport_c\custom_interfaces\srv\turning_control__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gcamp_ros2_ws\build\custom_interfaces\rosidl_typesupport_c\custom_interfaces\action\fibonacci__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gcamp_ros2_ws\build\custom_interfaces\rosidl_typesupport_c\custom_interfaces\action\maze__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gcamp_ros2_ws\build\custom_interfaces\CMakeFiles\fab482e08b1a3b8c977002146f873a6e\num__type_support.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\gcamp_ros2_ws\src\gcamp_ros2_basic\custom_interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AFD4B9B-9C2E-364A-8211-49770C9B04D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{820C7B8F-0F95-370F-9878-515D80FB8B37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

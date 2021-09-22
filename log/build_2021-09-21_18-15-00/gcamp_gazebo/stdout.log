@@ -1,0 +1,72 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19042.
+-- Found ament_cmake: 0.9.8 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xacro: 2.0.4 (C:/opt/ros/foxy/x64/share/xacro/cmake)
+-- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/gcamp_ros2_ws/build/gcamp_gazebo
+.NET Framework¿ë Microsoft (R) Build Engine ¹öÀü 16.11.0+0538acc04
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking Build System
+  Building Custom Rule C:/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo/CMakeLists.txt
+  Building Custom Rule C:/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo/CMakeLists.txt
+-- Execute custom install script
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.bat
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.bat
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bat
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake
+-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.xml

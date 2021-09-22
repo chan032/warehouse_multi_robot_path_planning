@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.015000] (-) JobUnselected: {'identifier': 'cpp_action_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'cpp_service_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'cpp_service_tutorial'}
+[0.015000] (-) JobUnselected: {'identifier': 'cpp_topic_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.015000] (-) JobUnselected: {'identifier': 'py_action_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'py_first_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'py_service_pkg'}
+[0.015000] (-) JobUnselected: {'identifier': 'py_topic_pkg'}
+[0.015000] (gcamp_gazebo) JobQueued: {'identifier': 'gcamp_gazebo', 'dependencies': OrderedDict()}
+[0.109000] (-) TimerEvent: {}
+[0.218000] (-) TimerEvent: {}
+[0.328000] (-) TimerEvent: {}
+[0.437000] (-) TimerEvent: {}
+[0.546000] (-) TimerEvent: {}
+[0.656000] (-) TimerEvent: {}
+[0.765000] (-) TimerEvent: {}
+[0.890000] (-) TimerEvent: {}
+[1.000000] (-) TimerEvent: {}
+[1.109000] (-) TimerEvent: {}
+[1.218000] (gcamp_gazebo) JobStarted: {'identifier': 'gcamp_gazebo'}
+[1.218000] (-) TimerEvent: {}
+[1.312000] (gcamp_gazebo) JobProgress: {'identifier': 'gcamp_gazebo', 'progress': 'cmake'}
+[1.312000] (gcamp_gazebo) Command: {'cmd': ['c:\\opt\\ros\\foxy\\x64\\Scripts\\cmake.EXE', 'c:\\gcamp_ros2_ws\\src\\gcamp_ros2_basic\\gcamp_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=c:\\gcamp_ros2_ws\\install\\gcamp_gazebo', '-G', 'Visual Studio 16 2019'], 'cwd': 'c:\\gcamp_ros2_ws\\build\\gcamp_gazebo', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'c:\\opt\\ros\\foxy\\x64'), ('APPDATA', 'C:\\Users\\yoonh\\AppData\\Roaming'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '132766835890628479'), ('CMAKE_PREFIX_PATH', 'c:\\opt\\ros\\foxy\\x64'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'c:\\opt\\ros\\foxy\\x64\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-LM05HEA'), ('ComSpec', 'C:\\Windows\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkDir64', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion64', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\yoonh'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x64'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\yoonh\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-LM05HEA'), ('NUMBER_OF_PROCESSORS', '12'), ('OneDrive', 'C:\\Users\\yoonh\\OneDrive'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'c:\\opt\\ros\\foxy\\x64\\Scripts;c:\\opt\\ros\\foxy\\x64\\bin;c:\\opt\\ros\\foxy\\x64\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\R2020a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2020a\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\yoonh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program?Files\\CMake\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'c:\\opt\\ros\\foxy\\x64\\lib\\pkgconfig'), ('Platform', 'x64'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD'), ('PROCESSOR_LEVEL', '23'), ('PROCESSOR_REVISION', '6801'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'c:\\opt\\ros\\foxy\\x64\\Lib\\site-packages'), ('ROS_DISTRO', 'foxy'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\Windows'), ('TEMP', 'C:\\Users\\yoonh\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\yoonh\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-LM05HEA'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-LM05HEA'), ('USERNAME', 'yoonh'), ('USERPROFILE', 'C:\\Users\\yoonh'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x64'), ('VSCMD_ARG_TGT_ARCH', 'x64'), ('VSCMD_VER', '16.11.3'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\Windows'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_64BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '64'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\R2020a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2020a\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\yoonh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program?Files\\CMake\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[1.328000] (-) TimerEvent: {}
+[1.453000] (-) TimerEvent: {}
+[1.562000] (-) TimerEvent: {}
+[1.687000] (-) TimerEvent: {}
+[1.734000] (gcamp_gazebo) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19042.\n'}
+[1.796000] (-) TimerEvent: {}
+[1.906000] (-) TimerEvent: {}
+[2.031000] (-) TimerEvent: {}
+[2.140000] (-) TimerEvent: {}
+[2.250000] (-) TimerEvent: {}
+[2.359000] (-) TimerEvent: {}
+[2.484000] (-) TimerEvent: {}
+[2.609000] (-) TimerEvent: {}
+[2.718000] (-) TimerEvent: {}
+[2.828000] (-) TimerEvent: {}
+[2.953000] (-) TimerEvent: {}
+[3.062000] (-) TimerEvent: {}
+[3.171000] (-) TimerEvent: {}
+[3.296000] (-) TimerEvent: {}
+[3.406000] (-) TimerEvent: {}
+[3.531000] (-) TimerEvent: {}
+[3.640000] (-) TimerEvent: {}
+[3.765000] (-) TimerEvent: {}
+[3.875000] (-) TimerEvent: {}
+[4.000000] (-) TimerEvent: {}
+[4.125000] (-) TimerEvent: {}
+[4.234000] (-) TimerEvent: {}
+[4.343000] (-) TimerEvent: {}
+[4.468000] (-) TimerEvent: {}
+[4.578000] (-) TimerEvent: {}
+[4.687000] (-) TimerEvent: {}
+[4.796000] (-) TimerEvent: {}
+[4.921000] (-) TimerEvent: {}
+[5.046000] (-) TimerEvent: {}
+[5.156000] (-) TimerEvent: {}
+[5.218000] (gcamp_gazebo) StdoutLine: {'line': b'-- The C compiler identification is MSVC 19.29.30133.0\n'}
+[5.265000] (-) TimerEvent: {}
+[5.390000] (-) TimerEvent: {}
+[5.500000] (-) TimerEvent: {}
+[5.625000] (-) TimerEvent: {}
+[5.734000] (-) TimerEvent: {}
+[5.843000] (-) TimerEvent: {}
+[5.953000] (-) TimerEvent: {}
+[6.078000] (-) TimerEvent: {}
+[6.187000] (-) TimerEvent: {}
+[6.312000] (-) TimerEvent: {}
+[6.421000] (-) TimerEvent: {}
+[6.531000] (-) TimerEvent: {}
+[6.656000] (-) TimerEvent: {}
+[6.718000] (gcamp_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is MSVC 19.29.30133.0\n'}
+[6.765000] (-) TimerEvent: {}
+[6.796000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.875000] (-) TimerEvent: {}
+[7.000000] (-) TimerEvent: {}
+[7.109000] (-) TimerEvent: {}
+[7.218000] (-) TimerEvent: {}
+[7.328000] (-) TimerEvent: {}
+[7.437000] (-) TimerEvent: {}
+[7.562000] (-) TimerEvent: {}
+[7.671000] (-) TimerEvent: {}
+[7.781000] (-) TimerEvent: {}
+[7.906000] (-) TimerEvent: {}
+[8.031000] (-) TimerEvent: {}
+[8.140000] (-) TimerEvent: {}
+[8.203000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.203000] (gcamp_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[8.203000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.203000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.218000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.250000] (-) TimerEvent: {}
+[8.375000] (-) TimerEvent: {}
+[8.484000] (-) TimerEvent: {}
+[8.609000] (-) TimerEvent: {}
+[8.718000] (-) TimerEvent: {}
+[8.828000] (-) TimerEvent: {}
+[8.953000] (-) TimerEvent: {}
+[9.062000] (-) TimerEvent: {}
+[9.171000] (-) TimerEvent: {}
+[9.296000] (-) TimerEvent: {}
+[9.421000] (-) TimerEvent: {}
+[9.531000] (-) TimerEvent: {}
+[9.593000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.593000] (gcamp_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[9.593000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.593000] (gcamp_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.640000] (-) TimerEvent: {}
+[9.671000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)\n'}
+[9.765000] (-) TimerEvent: {}
+[9.812000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") \n'}
+[9.812000] (gcamp_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe\n'}
+[9.875000] (-) TimerEvent: {}
+[10.000000] (-) TimerEvent: {}
+[10.109000] (-) TimerEvent: {}
+[10.218000] (-) TimerEvent: {}
+[10.218000] (gcamp_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.328000] (-) TimerEvent: {}
+[10.453000] (-) TimerEvent: {}
+[10.468000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)\n'}
+[10.562000] (-) TimerEvent: {}
+[10.687000] (-) TimerEvent: {}
+[10.734000] (gcamp_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.796000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)\n'}
+[10.796000] (-) TimerEvent: {}
+[10.906000] (-) TimerEvent: {}
+[11.031000] (-) TimerEvent: {}
+[11.140000] (-) TimerEvent: {}
+[11.156000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: optimized;C:/opt/ros/foxy/x64/Lib/libcrypto.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1g")  \n'}
+[11.234000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: C:/opt/ros/foxy/x64/include  \n'}
+[11.250000] (-) TimerEvent: {}
+[11.359000] (-) TimerEvent: {}
+[11.453000] (gcamp_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.484000] (-) TimerEvent: {}
+[11.593000] (-) TimerEvent: {}
+[11.671000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)\n'}
+[11.687000] (gcamp_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.703000] (-) TimerEvent: {}
+[11.703000] (gcamp_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.828000] (-) TimerEvent: {}
+[11.937000] (-) TimerEvent: {}
+[12.046000] (-) TimerEvent: {}
+[12.171000] (-) TimerEvent: {}
+[12.281000] (-) TimerEvent: {}
+[12.390000] (-) TimerEvent: {}
+[12.500000] (-) TimerEvent: {}
+[12.609000] (-) TimerEvent: {}
+[12.718000] (-) TimerEvent: {}
+[12.828000] (-) TimerEvent: {}
+[12.859000] (gcamp_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - not found\n'}
+[12.859000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.937000] (-) TimerEvent: {}
+[13.062000] (-) TimerEvent: {}
+[13.140000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found xacro: 2.0.4 (C:/opt/ros/foxy/x64/share/xacro/cmake)\n'}
+[13.171000] (-) TimerEvent: {}
+[13.171000] (gcamp_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)\n'}
+[13.281000] (-) TimerEvent: {}
+[13.390000] (-) TimerEvent: {}
+[13.453000] (gcamp_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.500000] (-) TimerEvent: {}
+[13.562000] (gcamp_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.578000] (gcamp_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.578000] (gcamp_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[13.609000] (-) TimerEvent: {}
+[13.640000] (gcamp_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.687000] (gcamp_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.734000] (-) TimerEvent: {}
+[13.843000] (-) TimerEvent: {}
+[13.875000] (gcamp_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[13.875000] (gcamp_gazebo) StdoutLine: {'line': b'-- Build files have been written to: C:/gcamp_ros2_ws/build/gcamp_gazebo\n'}
+[13.890000] (gcamp_gazebo) CommandEnded: {'returncode': 0}
+[13.890000] (gcamp_gazebo) JobProgress: {'identifier': 'gcamp_gazebo', 'progress': 'build'}
+[13.890000] (gcamp_gazebo) Command: {'cmd': ['c:\\opt\\ros\\foxy\\x64\\Scripts\\cmake.EXE', '--build', 'c:\\gcamp_ros2_ws\\build\\gcamp_gazebo', '--config', 'Release'], 'cwd': 'c:\\gcamp_ros2_ws\\build\\gcamp_gazebo', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'c:\\opt\\ros\\foxy\\x64', 'APPDATA': 'C:\\Users\\yoonh\\AppData\\Roaming', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '132766835890628479', 'CMAKE_PREFIX_PATH': 'c:\\opt\\ros\\foxy\\x64', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'c:\\opt\\ros\\foxy\\x64\\', 'CommandPromptType': 'Native', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-LM05HEA', 'ComSpec': 'C:\\Windows\\system32\\cmd.exe', 'DevEnvDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'ExtensionSdkDir': 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs', 'Framework40Version': 'v4.0', 'FrameworkDir': 'C:\\Windows\\Microsoft.NET\\Framework64\\', 'FrameworkDir64': 'C:\\Windows\\Microsoft.NET\\Framework64\\', 'FrameworkVersion': 'v4.0.30319', 'FrameworkVersion64': 'v4.0.30319', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\yoonh', 'INCLUDE': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt', 'LIB': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x64', 'LIBPATH': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319', 'LOCALAPPDATA': 'C:\\Users\\yoonh\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-LM05HEA', 'NUMBER_OF_PROCESSORS': '12', 'OneDrive': 'C:\\Users\\yoonh\\OneDrive', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'c:\\opt\\ros\\foxy\\x64\\Scripts;c:\\opt\\ros\\foxy\\x64\\bin;c:\\opt\\ros\\foxy\\x64\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\R2020a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2020a\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\yoonh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program?Files\\CMake\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'PKG_CONFIG_PATH': 'c:\\opt\\ros\\foxy\\x64\\lib\\pkgconfig', 'Platform': 'x64', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD', 'PROCESSOR_LEVEL': '23', 'PROCESSOR_REVISION': '6801', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'c:\\opt\\ros\\foxy\\x64\\Lib\\site-packages', 'ROS_DISTRO': 'foxy', 'ROS_LOCALHOST_ONLY': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\Windows', 'TEMP': 'C:\\Users\\yoonh\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\yoonh\\AppData\\Local\\Temp', 'UCRTVersion': '10.0.19041.0', 'UniversalCRTSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'USERDOMAIN': 'DESKTOP-LM05HEA', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-LM05HEA', 'USERNAME': 'yoonh', 'USERPROFILE': 'C:\\Users\\yoonh', 'VCIDEInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\', 'VCINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\', 'VCToolsInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\', 'VCToolsRedistDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\', 'VCToolsVersion': '14.29.30133', 'VisualStudioVersion': '16.0', 'VS160COMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'VSCMD_ARG_app_plat': 'Desktop', 'VSCMD_ARG_HOST_ARCH': 'x64', 'VSCMD_ARG_TGT_ARCH': 'x64', 'VSCMD_VER': '16.11.3', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\', 'windir': 'C:\\Windows', 'WindowsLibPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0', 'WindowsSdkBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\', 'WindowsSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'WindowsSDKLibVersion': '10.0.19041.0\\', 'WindowsSdkVerBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\', 'WindowsSDKVersion': '10.0.19041.0\\', '__devinit_path': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe', '__DOTNET_ADD_64BIT': '1', '__DOTNET_PREFERRED_BITNESS': '64', '__VSCMD_PREINIT_PATH': 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\R2020a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2020a\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\yoonh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program?Files\\CMake\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\', '__VSCMD_script_err_count': '0', 'CL': '/MP'}, 'shell': False}
+[13.953000] (-) TimerEvent: {}
+[14.078000] (-) TimerEvent: {}
+[14.093000] (gcamp_gazebo) StdoutLine: {'line': b'.NET Framework\xbf\xeb Microsoft (R) Build Engine \xb9\xf6\xc0\xfc 16.11.0+0538acc04\r\n'}
+[14.093000] (gcamp_gazebo) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation. All rights reserved.\r\n'}
+[14.093000] (gcamp_gazebo) StdoutLine: {'line': b'\r\n'}
+[14.187000] (-) TimerEvent: {}
+[14.312000] (-) TimerEvent: {}
+[14.437000] (-) TimerEvent: {}
+[14.546000] (-) TimerEvent: {}
+[14.671000] (-) TimerEvent: {}
+[14.781000] (-) TimerEvent: {}
+[14.906000] (-) TimerEvent: {}
+[15.015000] (-) TimerEvent: {}
+[15.078000] (gcamp_gazebo) StdoutLine: {'line': b'  Checking Build System\r\n'}
+[15.125000] (-) TimerEvent: {}
+[15.234000] (-) TimerEvent: {}
+[15.281000] (gcamp_gazebo) StdoutLine: {'line': b'  Building Custom Rule C:/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo/CMakeLists.txt\r\n'}
+[15.359000] (-) TimerEvent: {}
+[15.406000] (gcamp_gazebo) StdoutLine: {'line': b'  Building Custom Rule C:/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo/CMakeLists.txt\r\n'}
+[15.484000] (-) TimerEvent: {}
+[15.515000] (gcamp_gazebo) CommandEnded: {'returncode': 0}
+[15.515000] (gcamp_gazebo) JobProgress: {'identifier': 'gcamp_gazebo', 'progress': 'install'}
+[15.593000] (-) TimerEvent: {}
+[15.625000] (gcamp_gazebo) Command: {'cmd': ['c:\\opt\\ros\\foxy\\x64\\Scripts\\cmake.EXE', '--install', 'c:\\gcamp_ros2_ws\\build\\gcamp_gazebo', '--config', 'Release'], 'cwd': 'c:\\gcamp_ros2_ws\\build\\gcamp_gazebo', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'c:\\opt\\ros\\foxy\\x64'), ('APPDATA', 'C:\\Users\\yoonh\\AppData\\Roaming'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '132766835890628479'), ('CMAKE_PREFIX_PATH', 'c:\\opt\\ros\\foxy\\x64'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'c:\\opt\\ros\\foxy\\x64\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-LM05HEA'), ('ComSpec', 'C:\\Windows\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkDir64', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion64', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\yoonh'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x64'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\yoonh\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-LM05HEA'), ('NUMBER_OF_PROCESSORS', '12'), ('OneDrive', 'C:\\Users\\yoonh\\OneDrive'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'c:\\opt\\ros\\foxy\\x64\\Scripts;c:\\opt\\ros\\foxy\\x64\\bin;c:\\opt\\ros\\foxy\\x64\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\R2020a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2020a\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\yoonh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program?Files\\CMake\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'c:\\opt\\ros\\foxy\\x64\\lib\\pkgconfig'), ('Platform', 'x64'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD'), ('PROCESSOR_LEVEL', '23'), ('PROCESSOR_REVISION', '6801'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'c:\\opt\\ros\\foxy\\x64\\Lib\\site-packages'), ('ROS_DISTRO', 'foxy'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\Windows'), ('TEMP', 'C:\\Users\\yoonh\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\yoonh\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-LM05HEA'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-LM05HEA'), ('USERNAME', 'yoonh'), ('USERPROFILE', 'C:\\Users\\yoonh'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x64'), ('VSCMD_ARG_TGT_ARCH', 'x64'), ('VSCMD_VER', '16.11.3'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\Windows'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_64BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '64'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\R2020a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2020a\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\yoonh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yoonh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program?Files\\CMake\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[15.703000] (-) TimerEvent: {}
+[15.734000] (gcamp_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.750000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py\n'}
+[15.765000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py\n'}
+[15.781000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py\n'}
+[15.796000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py\n'}
+[15.812000] (-) TimerEvent: {}
+[15.828000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py\n'}
+[15.843000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py\n'}
+[15.875000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py\n'}
+[15.890000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py\n'}
+[15.906000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py\n'}
+[15.921000] (-) TimerEvent: {}
+[15.937000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py\n'}
+[15.937000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py\n'}
+[15.968000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world\n'}
+[15.984000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world\n'}
+[16.015000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world\n'}
+[16.031000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo\n'}
+[16.031000] (-) TimerEvent: {}
+[16.046000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf\n'}
+[16.078000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro\n'}
+[16.093000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf\n'}
+[16.109000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo\n'}
+[16.140000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf\n'}
+[16.140000] (-) TimerEvent: {}
+[16.156000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro\n'}
+[16.187000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo\n'}
+[16.203000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf\n'}
+[16.218000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro\n'}
+[16.250000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo\n'}
+[16.250000] (-) TimerEvent: {}
+[16.265000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf\n'}
+[16.281000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro\n'}
+[16.312000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf\n'}
+[16.328000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz\n'}
+[16.359000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz\n'}
+[16.359000] (-) TimerEvent: {}
+[16.375000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz\n'}
+[16.390000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz\n'}
+[16.421000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo\n'}
+[16.453000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo\n'}
+[16.468000] (-) TimerEvent: {}
+[16.468000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.bat\n'}
+[16.484000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv\n'}
+[16.515000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.bat\n'}
+[16.546000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv\n'}
+[16.562000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bat\n'}
+[16.578000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv\n'}
+[16.578000] (-) TimerEvent: {}
+[16.593000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv\n'}
+[16.625000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo\n'}
+[16.656000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake\n'}
+[16.671000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake\n'}
+[16.687000] (-) TimerEvent: {}
+[16.687000] (gcamp_gazebo) StdoutLine: {'line': b'-- Symlinking: C:/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.xml\n'}
+[16.718000] (gcamp_gazebo) CommandEnded: {'returncode': 0}
+[16.796000] (-) TimerEvent: {}
+[16.828000] (gcamp_gazebo) JobEnded: {'identifier': 'gcamp_gazebo', 'rc': 0}
+[16.828000] (-) EventReactorShutdown: {}

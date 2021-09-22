@@ -1,0 +1,10 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "C:/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:msg/Num.msg",
+    "C:/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:srv/AddThreeInts.srv",
+    "C:/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:srv/TurningControl.srv",
+    "C:/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:action/Fibonacci.action",
+    "C:/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:action/Maze.action"
+  ]
+}
